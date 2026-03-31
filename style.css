@@ -8,7 +8,7 @@ body {
 header,
 main,
 footer {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 
@@ -55,5 +55,57 @@ h1 {
 }
 
 .icon-header-container svg {
+    width: 1.5rem;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main img {
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content-detail-container svg {
     width: 1rem;
+}
+
+.content-detail-container {
+    padding: 0 1rem;
+    margin-top: 0;
+    padding-bottom: 4rem;
+}
+
+.title-icon-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+
+.text-dummy {
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-top: 0;
+}
+
+article {
+    background-color:aquamarine;
+
 }
