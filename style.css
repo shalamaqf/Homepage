@@ -1,3 +1,18 @@
+/* Global */
+body {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header,
+main,
+footer {
+    padding: 1rem;
+}
+
+
+/* Header Section */
 header {
     display: flex;
     flex-direction: column;
@@ -17,4 +32,28 @@ h1 {
     bottom: 0;
     margin-bottom: 0;
     font-size: 4rem;
+    line-height: 1.2;
+}
+
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme-container h2 {
+    margin-bottom: 0;
+}
+
+.aboutme-container p {
+    margin-top: 0;
+}
+
+.icon-header-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-header-container svg {
+    width: 1rem;
 }
