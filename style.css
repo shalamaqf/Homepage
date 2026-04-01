@@ -12,7 +12,7 @@ footer .info-container {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
@@ -110,16 +110,8 @@ main img {
     margin-top: 0;
 }
 
-article {
-    background-color:aquamarine;
-}
-
 
 /* Footer Section */
-footer {
-    background-color: aqua;
-}
-
 footer,
 .info-container,
 .info-detail-container,
@@ -172,10 +164,48 @@ address {
 
 .icon-footer-container {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .image-footer-container img{
     width: 100%;
     height: auto;
 }
+
+/* Style */
+body {
+    background: linear-gradient(180deg, #8ec0ec 0%, #dddfb9 100%);
+}
+
+footer {
+    background-color: #8ec0ec;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+h1,
+footer h2,
+footer p {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color:rgb(0, 0, 0, 0.5)
+}
+
+.image-header-container img,
+article {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
