@@ -240,7 +240,7 @@ article {
 
     .aboutme-container {
         margin: -7rem 3rem;
-        padding: 7rem 1.5rem;
+        padding: 7rem 2rem;
         background-color: rgb(255, 255, 255);
         box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.2);
     }
@@ -264,5 +264,39 @@ article {
         text-align: start;
         margin-bottom: 0;
         margin-left: 1.5rem;
+    }
+
+    /* Footer Section */
+    footer {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 3rem;
+    }
+
+    .image-footer-container {
+        max-width: 15rem;
+    }
+
+    .info-container h2,
+    .icon-footer-container {
+        align-self: flex-start;
+    }
+
+    .icon-footer-container {
+        margin-top: 1rem;
+    }
+
+    .phone-container, 
+    .email-container {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .phone-container svg,
+    .email-container svg {
+        display: block;
+        width: 1.5rem;
     }
 }
