@@ -249,4 +249,20 @@ article {
         margin-top: 2rem;
         margin-bottom: -2rem;
     }
+
+    /* Main Section */
+    main .articles {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 1.5rem;
+    }
+
+    main section {
+        margin: 0 1.5rem;
+    }
+
+    main h2 {
+        text-align: start;
+        margin-bottom: 0;
+        margin-left: 1.5rem;
+    }
 }
