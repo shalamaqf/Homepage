@@ -3,6 +3,9 @@ body {
     font-size: 1.125rem;
     line-height: 1.5;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 header,
@@ -70,7 +73,7 @@ main {
     margin-bottom: 4rem;
 }
 
-main section {
+main .articles {
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -212,3 +215,38 @@ article {
     box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
+
+/* Media Query for tablet screen */
+@media (min-width: 768px) {
+    body {
+        gap: 7rem;
+    }
+
+    /* Header Section */
+    header {
+        align-items: center;
+    }
+
+    .image-header-container {
+        max-width: 20rem;
+    }
+
+    .image-header-container h1 {
+        white-space: nowrap;
+        font-size: 4rem;
+        left: -3rem;
+        bottom: 4%;
+    }
+
+    .aboutme-container {
+        margin: -7rem 3rem;
+        padding: 7rem 1.5rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon-header-container {
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+    }
+}
