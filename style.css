@@ -354,4 +354,24 @@ article {
         margin: 0 0;
     }
 
+    /* Footer Section */
+    footer {
+        max-width: 100%;
+        padding: 3rem 0rem;  
+        align-items: flex-start;  
+    }
+
+    .image-footer-container {
+        max-width: 38rem;
+    }
+
+    footer .info-container {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .info-detail-container {
+        padding-right: 3rem;
+    }
+
 }
