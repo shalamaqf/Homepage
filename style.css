@@ -302,6 +302,10 @@ article {
 }
 
 @media (min-width: 1280px) {
+    body {
+        gap: 3rem;
+    }
+    
     /* Header Section */
     header,
     main {
@@ -337,6 +341,17 @@ article {
     .icon-header-container {
         margin-bottom: 0;
         align-self: flex-end;
+    }
+
+
+    /*Main Section */
+    section .articles {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        padding: 1.5rem 0;
+    }
+
+    main section {
+        margin: 0 0;
     }
 
 }
