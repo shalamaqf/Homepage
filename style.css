@@ -235,7 +235,7 @@ article {
         white-space: nowrap;
         font-size: 4rem;
         left: -3rem;
-        bottom: 3%;
+        bottom: 2%;
     }
 
     .aboutme-container {
@@ -318,7 +318,7 @@ article {
     }
 
     .image-header-container h1 {
-        white-space: nowrap;
+        white-space: wrap;
         bottom: 1%;
         left: 2.5%;
         font-size: 3.5rem;
