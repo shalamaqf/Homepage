@@ -37,7 +37,7 @@ header {
 h1 {
     position: absolute;
     bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 2%;
     font-size: 4rem;
     line-height: 1.2;
 }
@@ -235,14 +235,14 @@ article {
         white-space: nowrap;
         font-size: 4rem;
         left: -3rem;
-        bottom: 4%;
+        bottom: 3%;
     }
 
     .aboutme-container {
         margin: -7rem 3rem;
         padding: 7rem 2rem;
         background-color: rgb(255, 255, 255);
-        box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 10px 10px 2px rgba(61, 53, 53, 0.2);
     }
 
     .icon-header-container {
@@ -299,4 +299,44 @@ article {
         display: block;
         width: 1.5rem;
     }
+}
+
+@media (min-width: 1280px) {
+    /* Header Section */
+    header,
+    main {
+        max-width: 90rem;
+        margin: 0 auto;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    .image-header-container {
+        max-width: 80rem;
+    }
+
+    .image-header-container h1 {
+        white-space: nowrap;
+        bottom: 1%;
+        left: 2.5%;
+        font-size: 3.5rem;
+    }
+
+    .aboutme-container {
+        gap: 1rem;
+    }
+
+    .aboutme-container {
+        max-width: 100%;
+        margin: 0 0;
+        padding: 2rem 3rem;
+    }
+
+    .icon-header-container {
+        margin-bottom: 0;
+        align-self: flex-end;
+    }
+
 }
